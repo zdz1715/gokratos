@@ -1,2 +1,4 @@
 # gokratos
-kratos框架工具包
+Common packages for Go Kratos V2
+
+
