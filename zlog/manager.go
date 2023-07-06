@@ -1,4 +1,4 @@
-package log
+package zlog
 
 import (
 	"github.com/go-kratos/kratos/v2/log"
