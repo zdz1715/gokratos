@@ -8,14 +8,6 @@ import (
 	"path/filepath"
 )
 
-type Output int8
-
-const (
-	Stderr Output = iota
-	Stdout        = iota
-	File
-)
-
 const (
 	defaultDirectory = "logs"
 	defaultExt       = "log"
