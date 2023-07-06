@@ -6,12 +6,12 @@ type Output int8
 
 const (
 	Stderr Output = iota
-	Stdout        = iota
+	Stdout
 	File
 )
 
-func (l Output) String() string {
-	switch l {
+func (o Output) String() string {
+	switch o {
 	case Stderr:
 		return "stderr"
 	case Stdout:
