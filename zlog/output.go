@@ -23,7 +23,7 @@ func (o Output) String() string {
 	}
 }
 
-func ParseLevel(s string) Output {
+func ParseOutput(s string) Output {
 	switch strings.ToLower(s) {
 	case "stderr":
 		return Stderr
