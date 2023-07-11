@@ -2,5 +2,5 @@
 Common packages for Go Kratos V2
 
 
-- [Log](./log/manager_test.go) - Simple logging.
+- [Log](./zlog/manager_test.go) - Simple logging.
 
